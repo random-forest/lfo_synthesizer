@@ -1,0 +1,14 @@
+{
+  "name": "sequancer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.6",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "compile": "tsc --outDir dist src/**.ts --watch"
+  }
+}
