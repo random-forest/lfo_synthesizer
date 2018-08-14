@@ -1,15 +1,17 @@
 # lfo_synthesizer
 
-        vca    
-         |
       envelope
          |
-        vco       oscillator
-         |            |
-         |           gain
-         |            |
-       filter   +-----+
+    vca.amplitude
          |
-       gain
+ vco     |
+  |      |    lfo.oscillator
+  + --> vca         |
+         |          |
+         |      lfo.volume
+         |          |
+       filter <---- +
+         |
+       master
          |
         out
